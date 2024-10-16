@@ -15,8 +15,8 @@ services:
     restart: unless-stopped
     environment:
       - TZ=Etc/UTC
-      - PUID=999
-      - PGID=994
+      - PUID=998
+      - PGID=100
       - ZEROTIER_ONE_LOCAL_PHYS=eth0
       - ZEROTIER_ONE_USE_IPTABLES_NFT=false
       - ZEROTIER_ONE_GATEWAY_MODE=both
